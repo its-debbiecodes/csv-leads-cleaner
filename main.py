@@ -7,7 +7,9 @@ df["Email"]= df["Email"].str.strip().str.lower()
 original_rows=df.shape[0]
 current_rows=df.shape[0]
 
-print("Total number of rows in this file:",df.shape[0])
+df_no_empty=df.dropna(how="all")
+no_empty_rows =current_rows-df_no_empty.shape[0]
+current_rows=df_no_empty.shape[0]
 
 df_clean=df.dropna(how="all")
 after_empty_rows=df_clean.shape[0]
