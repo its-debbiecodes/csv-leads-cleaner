@@ -11,14 +11,15 @@ df_no_empty=df.dropna(how="all")
 no_empty_rows =current_rows-df_no_empty.shape[0]
 current_rows=df_no_empty.shape[0]
 
-df_clean=df.dropna(how="all")
-after_empty_rows=df_clean.shape[0]
+df_blank_email=df_no_empty.dropna(subset=["Email"])
+no_blank_emails= current_rows-df_blank_email.shape[0]
+current_rows=df_blank_email.shape[0]
 
-df_email=df_clean.dropna(subset=["Email"])
-after_blank_emails=df_email.shape[0]
+df_remove_duplicate= df_blank_email.drop_duplicates()
+no_duplicates_rows=current_rows-df_remove_duplicate.shape[0]
+current_rows=df_remove_duplicate.shape[0]
 
-df_duplicate= df_email.drop_duplicates()
-after_duplicates_clean=df_duplicate.shape[0]
+print(f"\n{df_remove_duplicate.head()}")
 
 print(f"\n\033[32mOriginal number of Rows:{original_rows}\033[0m")
 print(f"\n\033[32mEmpty rows removed: {no_empty_rows}\033[0m")

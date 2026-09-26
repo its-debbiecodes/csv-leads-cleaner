@@ -1,6 +1,7 @@
 Name,Email,Phone Number
-John smith,   john@email.com,07123456789
-Jane Doe,JANE@gmail.com,07234567890
+JOHN SMITH,JOHN@EMAIL.COM,07123456789
+John Smith,john@email.com,07123456789
+Jane Doe,jane@gmail.com,07234567890
+Bob Jones,"",07987654321
 "","",""
-John SMITH,john@email.com,07123456789
-"","",""
+JANE DOE,JANE@GMAIL.COM,07234567890
