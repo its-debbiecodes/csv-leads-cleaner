@@ -20,9 +20,8 @@ after_blank_emails=df_email.shape[0]
 df_duplicate= df_email.drop_duplicates()
 after_duplicates_clean=df_duplicate.shape[0]
 
-print(df_duplicate.head())
-
-print(f"Original number of Rows:{original_rows}")
-print(f"Rows after empty rows removed: {after_empty_rows}")
-print(f"Rows after blank emails removed: {after_blank_emails}")
-print(f"Rows after duplicates removed:{after_duplicates_clean}")
+print(f"\n\033[32mOriginal number of Rows:{original_rows}\033[0m")
+print(f"\n\033[32mEmpty rows removed: {no_empty_rows}\033[0m")
+print(f"\n\033[32mBlank emails removed: {no_blank_emails}\033[0m")
+print(f"\n\033[32mDuplicates removed:{no_duplicates_rows}\033[0m")
+print(f"\n\033[32mNumber of rows after cleanup:{current_rows}\033[0m")
