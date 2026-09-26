@@ -4,6 +4,8 @@ import pandas as pd
 df= pd.read_csv("data_test.csv",dtype={"Phone Number": str})
 df["Name"]= df["Name"].str.strip().str.title()
 df["Email"]= df["Email"].str.strip().str.lower()
+original_rows=df.shape[0]
+current_rows=df.shape[0]
 
 print("Total number of rows in this file:",df.shape[0])
 
