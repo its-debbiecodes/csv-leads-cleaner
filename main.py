@@ -9,7 +9,13 @@ def valid_email(email):
     if pd.isna(email) == True:
         return "\033[30mInvalid!\033[0m"
     else:
-        return "\033[32mInvalid Email Format!\033[0m"
+        email_pattern = r"^[\w\._-]+@[\w\._-]+\.\w+$"
+        if re.fullmatch(email_pattern,email):
+            return "\033[32mValid\033[0m"
+        else:
+            return "\033[30mInvalid!\033[0m"
+
+df["Email_Status"]= df["Email"].apply(valid_email)
 
 original_rows=df.shape[0]
 current_rows=df.shape[0]
