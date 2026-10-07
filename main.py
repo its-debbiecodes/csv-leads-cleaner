@@ -4,6 +4,15 @@ import pandas as pd
 df= pd.read_csv("data_test.csv",dtype={"Phone Number": str})
 df["Name"]= df["Name"].str.strip().str.title()
 df["Email"]= df["Email"].str.strip().str.lower()
+
+def valid_email():
+    email_pattern = r"^[\w\._-]+@+[\w\._-]+\.\w+$"
+    if re.fullmatch(email_pattern, df["Email"]):
+        return df["Email"]
+
+    else:
+        return "\033[32mInvalid Email Format!\033[0m"
+
 original_rows=df.shape[0]
 current_rows=df.shape[0]
 
