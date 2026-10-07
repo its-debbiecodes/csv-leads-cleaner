@@ -5,11 +5,9 @@ df= pd.read_csv("data_test.csv",dtype={"Phone Number": str})
 df["Name"]= df["Name"].str.strip().str.title()
 df["Email"]= df["Email"].str.strip().str.lower()
 
-def valid_email():
-    email_pattern = r"^[\w\._-]+@+[\w\._-]+\.\w+$"
-    if re.fullmatch(email_pattern, df["Email"]):
-        return df["Email"]
-
+def valid_email(email):
+    if pd.isna(email) == True:
+        return "\033[30mInvalid!\033[0m"
     else:
         return "\033[32mInvalid Email Format!\033[0m"
 
