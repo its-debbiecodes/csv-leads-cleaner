@@ -34,6 +34,9 @@ current_rows=df_remove_duplicate.shape[0]
 
 print(f"\n{df_remove_duplicate.head()}")
 
+output_folder=Path("cleaned_data_exports")
+output_folder.mkdir(parents=True, exist_ok=True)
+save_csv_file=df_remove_duplicate.to_csv(output_folder/"cleaned_leads.csv",index=False)
 print(f""" 
 ====== CLEANED UP LEADS ======
 \n{df_remove_duplicate.head()}
