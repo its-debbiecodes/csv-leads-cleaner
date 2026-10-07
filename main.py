@@ -34,8 +34,19 @@ current_rows=df_remove_duplicate.shape[0]
 
 print(f"\n{df_remove_duplicate.head()}")
 
-print(f"\n\033[32mOriginal number of Rows:{original_rows}\033[0m")
-print(f"\n\033[32mEmpty rows removed: {no_empty_rows}\033[0m")
-print(f"\n\033[32mBlank emails removed: {no_blank_emails}\033[0m")
-print(f"\n\033[32mDuplicates removed:{no_duplicates_rows}\033[0m")
-print(f"\n\033[32mNumber of rows after cleanup:{current_rows}\033[0m")
+print(f""" 
+====== CLEANED UP LEADS ======
+\n{df_remove_duplicate.head()}
+==========================================
+""")
+
+print(f"""
+====== LEAD LIST CLEANING REPORT ======
+\n\033[32mOriginal Rows:\033[0m {original_rows}
+\n\033[32mEmpty rows removed:\033[0m {no_empty_rows}
+\n\033[32mBlank emails removed:\033[0m {no_blank_emails}
+\n\033[32mDuplicates removed:\033[0m {no_duplicates_rows}
+\n\033[32mInvalid Emails:\033[0m {df_invalid_emails}
+\n\033[32mClean Leads:\033[0m {current_rows}
+=====================================================================
+""")
