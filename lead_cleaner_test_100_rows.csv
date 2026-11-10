@@ -1,0 +1,101 @@
+﻿Name,Email,Phone Number,Company
+  AMELIA JOHNSON , Amelia.Johnson@example.com ,07123456701,Apple
+Noah Williams,noah.williams@example.co.uk,07700900001,Google
+olivia brown,olivia.brown@example.com,07911223344,Microsoft
+Liam Jones,liam.jones@example.org,07000111222,Amazon
+ ava taylor , ava.taylor@example.net ,07400123456,Adobe
+Oliver Davies,oliver.davies@example.com,07888777666,Spotify
+isla wilson,isla.wilson@example.co.uk,07111122223,Netflix
+George Evans,george.evans@example.org,07555566667,Meta
+Sophia Thomas,sophia.thomas@example.net,07333444556,Canva
+freddie roberts,freddie.roberts@example.com,07666677778,Atlassian
+Mia Walker,mia.walker@example.co.uk,07999888777,Shopify
+Arthur Wright,arthur.wright@example.org,07012345678,GitHub
+Grace Robinson,grace.robinson@example.net,07222333444,Salesforce
+Leo Thompson,leo.thompson@example.com,07712345678,IBM
+lily white,lily.white@example.co.uk,07456789012,Oracle
+Oscar Hughes,oscar.hughes@example.org,07812345678,Dell
+Emily Edwards,emily.edwards@example.net,07123456789,HP
+Henry Green,henry.green@example.com,07512345678,NVIDIA
+Ella Hall,ella.hall@example.co.uk,07312345678,AMD
+Jack Lewis,jack.lewis@example.org,07612345678,Intel
+Freya Clarke,freya.clarke@example.net,07912345678,ARM
+Charlie Harris,charlie.harris@example.com,07098765432,Cisco
+Poppy Lewis,poppy.lewis@example.co.uk,07234567890,Zoom
+Thomas Robinson,thomas.robinson@example.org,07765432109,Slack
+Isabella Walker,isabella.walker@example.net,07432109876,Figma
+James Young,james.young@example.com,07876543210,Framer
+Sienna King,sienna.king@example.co.uk,07198765432,Notion
+William Baker,william.baker@example.org,07598765432,Trello
+Evie Adams,evie.adams@example.net,07398765432,Asana
+Joshua Nelson,joshua.nelson@example.com,07698765432,Miro
+  AMELIA JOHNSON , Amelia.Johnson@example.com ,07123456701,Apple
+NOAH WILLIAMS,noah.williams@example.co.uk,07700900001,Google
+olivia brown,olivia.brown@example.com,07911223344,Microsoft
+Liam Jones,liam.jones@example.org,07000111222,Amazon
+Mason Scott,mason.scott@example.com,07770001111,Apple
+Harper Green,harper.green@example.com,07770001112,Google
+Ethan Baker,ethan.baker@example.com,07770001113,Microsoft
+Aria Nelson,aria.nelson@example.com,07770001114,Amazon
+Logan Carter,logan.carter@example.com,07770001115,Adobe
+Ruby Mitchell,ruby.mitchell@example.com,07770001116,Spotify
+Theo Perez,theo.perez@example.com,07770001117,Netflix
+Daisy Roberts,daisy.roberts@example.com,07770001118,Meta
+Lucas Turner,lucas.turner@example.com,07770001119,Canva
+Florence Phillips,florence.phillips@example.com,07770001120,Atlassian
+Archie Campbell,archie.campbell@example.com,07770001121,Shopify
+Maisie Parker,maisie.parker@example.com,07770001122,GitHub
+Finley Evans,finley.evans@example.com,07770001123,Salesforce
+Ivy Edwards,ivy.edwards@example.com,07770001124,IBM
+Alfie Collins,alfie.collins@example.com,07770001125,Oracle
+Willow Stewart,willow.stewart@example.com,07770001126,Dell
+Evelyn Morris,evelyn.morris@example.com,07770001127,HP
+James Cook,james.cook@example.com,07770001128,NVIDIA
+Chloe Rogers,chloe.rogers@example.com,07770001129,AMD
+Benjamin Morgan,benjamin.morgan@example.com,07770001130,Intel
+Imogen Bell,imogen.bell@example.com,07770001131,ARM
+Daniel Murphy,daniel.murphy@example.com,07770001132,Cisco
+Elsie Bailey,elsie.bailey@example.com,07770001133,Zoom
+Samuel Rivera,samuel.rivera@example.com,07770001134,Slack
+Matilda Cooper,matilda.cooper@example.com,07770001135,Figma
+Alexander Richardson,alexander.richardson@example.com,07770001136,Framer
+Esme Cox,esme.cox@example.com,07770001137,Notion
+Joseph Howard,joseph.howard@example.com,07770001138,Trello
+Molly Ward,molly.ward@example.com,07770001139,Asana
+Sebastian Torres,sebastian.torres@example.com,07770001140,Miro
+Amelia Price,amelia.price@example.com,07770001141,Apple
+Reuben Gray,reuben.gray@example.com,07770001142,Google
+Holly James,holly.james@example.com,07770001143,Microsoft
+Adam Watson,adam.watson@example.com,07770001144,Amazon
+Thea Brooks,thea.brooks@example.com,07770001145,Adobe
+Max Bennett,max.bennett@example.com,07770001146,Spotify
+Lola Wood,lola.wood@example.com,07770001147,Netflix
+Isaac Barnes,isaac.barnes@example.com,07770001148,Meta
+Georgia Ross,georgia.ross@example.com,07770001149,Canva
+Edward Henderson,edward.henderson@example.com,07770001150,Atlassian
+  Priya Shah  ,  PRIYA.SHAH@EXAMPLE.COM  ,07123400999,Shopify
+Ben Carter,ben.carter@example.com,07770001151,GitHub
+Zara Ahmed,zara.ahmed@example.com,07770001152,Salesforce
+Callum Foster,callum.foster@example.com,07770001153,IBM
+Maya Patel,maya.patel@example.com,07770001154,Oracle
+  ,   ,,
+,,,
+   ,,,
+No Email Person,,07770001155,Example Co
+Missing Email,,07770001156,Example Co
+Invalid One,invalid.email.com,07770001157,Example Co
+Invalid Two,@example.com,07770001158,Example Co
+Invalid Three,person@localhost,07770001159,Example Co
+Invalid Four,person..dot@example.com,07770001160,Example Co
+Invalid Five,person@example,07770001161,Example Co
+Invalid Six,person name@example.com,07770001162,Example Co
+Invalid Seven,person@example..com,07770001163,Example Co
+Valid Odd,valid+tag@example.com,07770001164,Example Co
+Valid UK,uk.person@example.co.uk,07770001165,Example Co
+Valid Underscore,first_last@example.com,07770001166,Example Co
+Valid Hyphen,first-last@example.com,07770001167,Example Co
+ Leading Space ,  spaced.person@example.net   ,07770001168,Example Co
+Mixed CASE,MiXeD.CaSe@Example.COM,07770001169,Example Co
+Phone Zero Test,phone.zero@example.com,07123456700,Example Co
+No Company,nocompany@example.com,07770001170,
+No Phone,nophone@example.com,,Example Co
